@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home — Gamila El Fayoumi</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <nav class="nav" aria-label="Main">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand"><span>GAMILA EL FAYOUMI</span></a>
+      <div class="menu" role="menubar">
+        <a role="menuitem" href="index.html">Home</a>
+        <a role="menuitem" href="education.html">Education</a>
+        <a role="menuitem" href="projects.html">Projects</a>
+        <a role="menuitem" href="services.html">Services</a>
+        <a role="menuitem" href="contact.html">Contact&nbsp;Info</a>
+      </div>
+      <button class="burger" aria-label="Open menu" id="openMenu">☰</button>
+    </div>
+  </nav>
+  <div class="flyout" id="flyout" aria-hidden="true">
+    <nav class="sheet" aria-label="Mobile">
+      <a href="index.html" class="fly">Home</a>
+      <a href="education.html" class="fly">Education</a>
+      <a href="projects.html" class="fly">Projects</a>
+      <a href="services.html" class="fly">Services</a>
+      <a href="contact.html" class="fly">Contact&nbsp;Info</a>
+    </nav>
+  </div>
+
+  <header id="home" class="hero" role="banner">
+    <div class="hero-left">
+        <div class="hero-inner">
+            <div class="eyebrow">Welcome to Explore</div>
+            <h1 class="title">Gamila El Fayoumi</h1>
+            <p class="summary">Hello, I am Gamila a developer who goes beyond coding for me, development is about creating something new, challenging myself, and pushing limits to deliver the best possible results.</p>
+            <p class="summary">I build user-friendly applications, intelligent chatbots, and computer vision solutions. Here you can explore my education, projects, services, and how to contact me.</p>
+            <div class="cta-row">
+                <a class="btn primary" href="projects.html">View Projects</a>
+                <a class="btn" href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    <div class="hero-right" aria-hidden="false">
+      <div class="portrait">
+        <div class="frame">
+          <img src="C:\Users\mself\Desktop\portfolio-multipage\Gamila_El Fayoumi.JPG" alt="Portrait">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <footer class="footer">
+    © <span id="year"></span> Gamila El Fayoumi. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>

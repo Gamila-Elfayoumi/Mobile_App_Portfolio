@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact — Gamila El Fayoumi</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\mself\Desktop\portfolio-multipage\styles.css"> <!-- external CSS -->
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-wrap">
+            <a href="index.html" class="brand"><span>GAMILA EL FAYOUMI</span></a>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="education.html">Education</a>
+                <a href="projects.html">Projects</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Info</h2>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                <a href="mailto:gamila.elfayoumi@gmail.com">gamila.elfayoumi@gmail.com</a>
+            </div>
+            <div class="contact-card">
+                <div class="icon"><i class="fab fa-github"></i></div>
+                <a href="https://github.com/Gamila-Elfayoumi" target="_blank">github.com/Gamila-Elfayoumi</a>
+            </div>
+            <div class="contact-card">
+                <div class="icon"><i class="fab fa-linkedin"></i></div>
+                <a href="https://www.linkedin.com/in/gamila-el-fayoumi/" target="_blank">linkedin.com/in/gamila-el-fayoumi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        © <span id="year"></span> Gamila El Fayoumi. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

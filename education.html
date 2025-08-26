@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Education — Gamila El Fayoumi</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <nav class="nav" aria-label="Main">
+        <div class="nav-wrap">
+            <a href="index.html" class="brand"><span>GAMILA EL FAYOUMI</span></a>
+            <div class="menu" role="menubar">
+                <a role="menuitem" href="index.html">Home</a>
+                <a role="menuitem" href="education.html">Education</a>
+                <a role="menuitem" href="projects.html">Projects</a>
+                <a role="menuitem" href="services.html">Services</a>
+                <a role="menuitem" href="contact.html">Contact&nbsp;Info</a>
+            </div>
+            <button class="burger" aria-label="Open menu" id="openMenu">☰</button>
+        </div>
+    </nav>
+    <div class="flyout" id="flyout" aria-hidden="true">
+        <nav class="sheet" aria-label="Mobile">
+            <a href="index.html" class="fly">Home</a>
+            <a href="education.html" class="fly">Education</a>
+            <a href="projects.html" class="fly">Projects</a>
+            <a href="services.html" class="fly">Services</a>
+            <a href="contact.html" class="fly">Contact&nbsp;Info</a>
+        </nav>
+    </div>
+
+    <section id="education" aria-label="Education">
+        <h2 class="section-title">Education</h2>
+
+        <!-- CHANGED: grid-3 → grid-edu -->
+        <div class="grid-edu">
+            <article class="card">
+                <h3>Egypt-Japan University of Science and Technology (E-JUST)</h3>
+                <div class="muted">B.Sc. in Artificial Intelligence and Data Science of Computer Science and information technology.</div>
+                <p class="muted">Expected 2026 · CGPA of 3.49</p>
+                
+            </article>
+
+            <article class="card">
+                <h3>Notable Coursework</h3>
+                <p class="muted">
+                    <span class="pill">Machine Learning</span>
+                    <span class="pill">Computer Vision</span>
+                    <span class="pill">Data Structures</span>
+                    <span class="pill">Operating Systems</span>
+                    <span class="pill">Networks</span>
+                    <span class="pill">Web developer</span>
+                    <span class="pill">Mobile Application</span>
+
+
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Sainte Jeanne Antide</h3>
+                <p class="muted">General Secondary Education Certificate.</p>
+            </article>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        © <span id="year"></span> Gamila El Fayoumi. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

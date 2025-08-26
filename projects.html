@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Projects — Gamila El Fayoumi</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <nav class="nav" aria-label="Main">
+        <div class="nav-wrap">
+            <a href="index.html" class="brand"><span>GAMILA EL FAYOUMI</span></a>
+            <div class="menu" role="menubar">
+                <a role="menuitem" href="index.html">Home</a>
+                <a role="menuitem" href="education.html">Education</a>
+                <a role="menuitem" href="projects.html">Projects</a>
+                <a role="menuitem" href="services.html">Services</a>
+                <a role="menuitem" href="contact.html">Contact&nbsp;Info</a>
+            </div>
+            <button class="burger" aria-label="Open menu" id="openMenu">☰</button>
+        </div>
+    </nav>
+    <div class="flyout" id="flyout" aria-hidden="true">
+        <nav class="sheet" aria-label="Mobile">
+            <a href="index.html" class="fly">Home</a>
+            <a href="education.html" class="fly">Education</a>
+            <a href="projects.html" class="fly">Projects</a>
+            <a href="services.html" class="fly">Services</a>
+            <a href="contact.html" class="fly">Contact&nbsp;Info</a>
+        </nav>
+    </div>
+
+  
+        <div class="grid-projects">
+            <section id="projects" aria-label="Projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="grid-projects">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <img class="project-thumb" src="C:\Users\mself\Desktop\portfolio-multipage\mobile chat.png" alt="Flutter Chat Mobile App">
+                        <div class="project-body">
+                            <h3>Flutter Chat Mobile App</h3>
+                            <p class="muted">
+                                A modern chat application built with Flutter featuring a sleek UI. Users can sign up, log in, and chat with friends. Includes a welcome screen, secure authentication, and chat list with profile images.
+                            </p>
+                            <ul class="chipset">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>Firebase</li>
+                                <li>REST APIs</li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn" href="#" target="_blank">Live Demo</a>
+                                <a class="btn ghost" href="#" target="_blank">Source</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <img class="project-thumb" src="C:\Users\mself\Desktop\portfolio-multipage\Task-Management.png" alt="Flutter Task Manager App">
+                        <div class="project-body">
+                            <h3>Flutter Task Manager</h3>
+                            <p class="muted">
+                                A productivity app for managing tasks and deadlines. Features include task creation, reminders, calendar integration, and a clean UI for efficient project tracking.
+                            </p>
+                            <ul class="chipset">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>SQLite</li>
+                                <li>Provider</li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn" href="#" target="_blank">Live Demo</a>
+                                <a class="btn ghost" href="#" target="_blank">Source</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <img class="project-thumb" src="C:\Users\mself\Desktop\portfolio-multipage\health-care.png" alt="Flutter Health Tracker App">
+                        <div class="project-body">
+                            <h3>Flutter Health Tracker</h3>
+                            <p class="muted">
+                                A mobile app that tracks fitness activities, diet, and daily habits. Includes charts, goals, notifications, and integration with wearable devices for real-time health monitoring.
+                            </p>
+                            <ul class="chipset">
+                                <li>Flutter</li>
+                                <li>Dart</li>
+                                <li>Firebase</li>
+                                <li>Chart Libraries</li>
+                            </ul>
+                            <div class="actions">
+                                <a class="btn" href="#" target="_blank">Live Demo</a>
+                                <a class="btn ghost" href="#" target="_blank">Source</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+  
+
+
+    <footer class="footer">
+        © <span id="year"></span> Gamila El Fayoumi. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
